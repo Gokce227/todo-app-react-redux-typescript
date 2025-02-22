@@ -1,9 +1,9 @@
 # Todo app
 
-![Design preview for the Todo app coding challenge](./vite-project/src/assets/todo-app-sun.png)
-![Design preview for the Todo app coding challenge](./vite-project/src/assets/todo-app-night.png)
-![Design preview for the Todo app coding challenge](./vite-project/src/assets/todo-app-sun-todo.png)
-![Design preview for the Todo app coding challenge](./vite-project/src/assets/todo-app-night-todo.png)
+![Design preview for the Todo app coding challenge](./src/assets/todo-app-sun.png)
+![Design preview for the Todo app coding challenge](./src/assets/todo-app-night.png)
+![Design preview for the Todo app coding challenge](./src/assets/todo-app-sun-todo.png)
+![Design preview for the Todo app coding challenge](./src/assets/todo-app-night-todo.png)
 
 
 
@@ -40,13 +40,18 @@ Your users should be able to:
 - Start by cloning the project from GitHub to your local machine:
 ```bash
 git clone https://github.com/YourUsername/todo-list-application.git
+```
 - Navigate to the project directory and install the necessary dependencies by running the following command:
 ```bash
 cd todo-list-application
+```
 ```bash
 npm install
+```
 - Once the dependencies are installed, you can start the development server to run the application locally:
+```
 ```bash
 npm start
+```
 
 - And You can start
