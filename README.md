@@ -1,8 +1,11 @@
 # Todo app
 
-![Design preview for the Todo app coding challenge](./src/assets/todo-app-sun.png)
+![Design preview for the Todo app coding challenge](./src/assets/todo-app-sun.png) 
+
 ![Design preview for the Todo app coding challenge](./src/assets/todo-app-night.png)
+
 ![Design preview for the Todo app coding challenge](./src/assets/todo-app-sun-todo.png)
+
 ![Design preview for the Todo app coding challenge](./src/assets/todo-app-night-todo.png)
 
 
