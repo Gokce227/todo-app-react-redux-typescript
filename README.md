@@ -16,11 +16,11 @@ To do this project, you need a basic understanding of HTML,CSS, Javascript, Reac
 
 ## Technologies Used
 
-React (Frontend)
-Redux (State Management)
-Typescript
-CSS (Styling)
-React Icons (For Icons)
+- React (Frontend)
+- Redux (State Management)
+- Typescript
+- CSS (Styling)
+- React Icons (For Icons)
 
 ## The Project
 
