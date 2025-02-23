@@ -20,6 +20,7 @@ To do this project, you need a basic understanding of HTML,CSS, Javascript, Reac
 - Redux (State Management)
 - Typescript
 - CSS (Styling)
+- HTML
 - React Icons (For Icons)
 
 ## The Project
