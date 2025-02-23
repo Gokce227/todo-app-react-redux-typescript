@@ -54,4 +54,8 @@ npm install
 npm start
 ```
 
+<<<<<<< HEAD
 - And You can start
+=======
+- And You can start
+>>>>>>> a8e03b6 (Initial commit)

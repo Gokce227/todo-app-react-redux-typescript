@@ -1,0 +1,286 @@
+*{
+   padding: 0;
+    margin: 0;
+}
+
+body{
+  padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------Dark------------------ */
+
+.todo-create.dark{
+  background-color: #f4f4f4;
+  opacity: 0;
+   transform: translateY(20px);
+}
+.todo-create.dark:hover{
+  background-color: #e0e0e0;
+}
+
+.todo-create.light{
+  background-color: #fff;
+}
+
+.todo-create-button.dark{
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.todo-create-button.light{
+  color: #fff;
+   background-color: black;
+}
+
+.todo.dark{
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.todo.dark:hover{
+  background-color: #e0e0e0;
+}
+
+
+.todo.light{
+  background-color: #fff;
+}
+
+.todo:hover {
+  background-color: #e0e0e0;
+}
+
+.button-all.dark{
+  background-color: #f4f4f4;
+}
+
+.button-all.light{
+  background-color: #fff;
+}
+
+
+/*------------------------------------------*/
+.todo-create{
+  width: 500px;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+ border: 2px solid rgba(255, 255, 255, 0.2);
+opacity: 0;
+  transform: translateY(20px);
+  /* Yazıyı biraz aşağıda başlatıyoruz */
+  animation: fadeInUp 1s ease-out forwards;
+  /* Animasyon başlatılıyor */
+}
+
+.todo-create:hover{
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+ margin-top: 150px;
+opacity: 0;
+  transform: translateY(20px);
+  /* Yazıyı biraz aşağıda başlatıyoruz */
+  animation: fadeInUp 1s ease-out forwards;
+  /* Animasyon başlatılıyor */
+}
+
+.todo-input{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  color: hsl(234, 10%, 20%);
+}
+
+.todo-create-button{
+  padding: 5px 10px;
+  border-radius: 5px ;
+  color : #fff;
+    background-color: black;
+  font-weight: 400;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity: 0;
+    transform: translateY(20px);
+    /* Yazıyı biraz aşağıda başlatıyoruz */
+    animation: fadeInUp 1s ease-out forwards;
+    /* Animasyon başlatılıyor */
+    
+}
+.todo-create-button:hover{
+ font-size: 16px;
+}
+
+.circle{
+ color: hsl(234, 11%, 52%);
+ padding: 10px;
+}
+
+.todo-text{
+  display: flex;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 5px;
+margin-bottom: 10px;
+opacity: 0;
+  transform: translateY(20px);
+  /* Yazıyı biraz aşağıda başlatıyoruz */
+  animation: fadeInUp 1s ease-out forwards;
+  /* Animasyon başlatılıyor */
+}
+
+.todo:hover{
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+/*
+.todo:nth-child(1){
+  border-radius: 5px 5px 0 0;
+}
+
+.todo:nth-last-child(1){
+  border-radius: 0 0 5px 5px;
+} 
+  */
+
+
+.todo-list{
+  margin-top: 20px;
+}
+
+.todo-content{
+  margin-left: 12px;
+}
+
+.icon-x{
+  font-size: 20px;
+  margin-right: 8px;
+  color: hsl(240, 4%, 10%);
+  cursor: pointer;
+}
+
+.icon-edit{
+font-size: 20px;
+color: hsl(236, 9%, 61%);
+cursor: pointer;
+}
+
+.icon-check{
+cursor: pointer;
+padding: 5px;
+border-radius: 20px;
+background: black;
+}
+
+.button-all{
+  display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: hsl(233, 14%, 35%);
+    border-radius: 0 0 5px 5px;
+    opacity: 0;
+      transform: translateY(20px);
+      /* Yazıyı biraz aşağıda başlatıyoruz */
+      animation: fadeInUp 1s ease-out forwards;
+      /* Animasyon başlatılıyor */
+}
+
+.item-text{
+  font-size: 13px;
+}
+
+.btn{
+  display: flex;
+}
+
+.btna{
+  background: none;
+  border: none;
+  margin-right: 8px;
+  font-weight: 600;
+}
+.btna:hover{
+  cursor: pointer;
+font-size: 14px;
+}
+
+.btna:active{
+  color: hsl(220, 98%, 61%);
+}
+
+
+#root{
+  height: 100vh;
+}
+
+.moon{
+  font-size: 25px;
+transform: rotate(-20deg);
+}
+
+.cilight{
+  font-size: 25px;
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    /* Opaklık %100 olacak */
+    transform: translateY(0);
+    /* Yavaşça yukarı çıkacak */
+  }
+}
+
+/* 375px ve daha küçük ekranlar için */
+@media (max-width: 375px) {
+  .todo-create {
+    width: 250px;
+  }
+
+  .todo-content{
+    font-size: 12px;
+  }
+}
+
+/* 375px ile 575px arasındaki ekranlar için */
+@media (min-width: 375px) and (max-width: 575px) {
+  .todo-create {
+    width: 310px;
+  }
+}
+
+/* 575px ve daha büyük ekranlar için 
+@media (min-width: 575px) {
+  .todo-create {
+    width: 350px;
+  }
+}*/
+
+
