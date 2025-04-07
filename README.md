@@ -54,7 +54,7 @@ npm install
 ```
 - Once the dependencies are installed, you can start the development server to run the application locally:
 ```
-```bash
+
 npm start
 ```
 
